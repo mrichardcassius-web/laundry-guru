@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150" role="img" aria-labelledby="title">
+  <title id="title">A pair of trousers</title>
+  <!-- Original simple drawing made for the Laundry Guru website. -->
+  <g stroke="#193e50" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M70 19h60l6 111h-29l-7-74-7 74H64z" fill="#eaf3f6"/>
+    <path d="M70 29h60M100 29v27m-7-27v21h7M70 35q17 13 20-6m40 6q-17 13-20-6M65 121h29m12 0h29" fill="none"/>
+    <path d="M79 19v10m12-10v10m18-10v10m12-10v10" fill="none"/>
+    <circle cx="102" cy="24" r="1.5" fill="#29666b" stroke="none"/>
+  </g>
+</svg>

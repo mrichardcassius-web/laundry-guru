@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150" role="img" aria-labelledby="title">
+  <title id="title">A zip-up jacket</title>
+  <!-- Original simple drawing made for the Laundry Guru website. -->
+  <g stroke="#193e50" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M84 27l16 8 16-8 19 12 22 75-24 7-12-44v55H79V77l-12 44-24-7 22-75z" fill="#eaf3f6"/>
+    <path d="M84 27l-4-10 20 6 20-6-4 10-16 8z" fill="#f5f1e8"/>
+    <path d="M100 35v97M79 91l13 5v16H79m42-21-13 5v16h13M47 103l24 7m58 0 24-7M79 123h42" fill="none"/>
+    <path d="M104 57v8" fill="none" stroke="#29666b"/>
+  </g>
+</svg>

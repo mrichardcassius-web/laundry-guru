@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150" role="img" aria-labelledby="title">
+  <title id="title">A bra for delicate laundry</title>
+  <!-- Original simple drawing made for the Laundry Guru website. -->
+  <g stroke="#193e50" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M48 66l7-39h11l-4 36m90 3-7-39h-11l4 36" fill="#f5f1e8"/>
+    <path d="M32 85l6-23h21q6-15 20-14 19 2 21 32 2-30 21-32 14-1 20 14h21l6 23-25 7q-14 22-35 8l-8-8-8 8q-21 14-35-8z" fill="#eaf3f6"/>
+    <path d="M59 62q-9 16-2 30m84-30q9 16 2 30M33 80l21 6m113-6-21 6" fill="none"/>
+    <path d="M94 82l6-5 6 5-6 4z" fill="#29666b"/>
+  </g>
+</svg>

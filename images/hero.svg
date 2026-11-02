@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 520" role="img" aria-labelledby="title">
+  <title id="title">A laundry room with a shirt, washing machine, basket and fresh towels</title>
+  <!-- Original simple drawing made for the Laundry Guru website. -->
+  <g stroke="#193e50" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Background and floor. -->
+    <path d="M54 458h592" stroke="#a8bec1"/>
+    <rect x="53" y="54" width="592" height="404" rx="18" fill="#eaf3f6" stroke="none"/>
+    <path d="M54 458h592" stroke="#193e50"/>
+    <path d="M70 478h560" stroke="#d0dedf"/>
+    <!-- Clothes rail with a freshly washed shirt. -->
+    <path d="M99 349V98h233v251m-248 4h31m202 0h31" fill="none" stroke-width="5"/>
+    <path d="M175 114q0-12 10-12t6 16l-8 5m0 0-40 22h80z" fill="none" stroke-width="3"/>
+    <path d="M153 141l-47 29 24 47 28-15v100h74V202l26 15 26-47-47-29-27-8h-28z" fill="#fff" stroke-width="3"/>
+    <path d="M182 133l13 28-19 13-18-31m52-10-15 28 20 13 17-31m-37 28v141m-37-13h74M130 217l-19-36m148 36 20-36" fill="none"/>
+    <path d="M209 188h16v22h-16z" fill="#eaf3f6"/>
+    <g fill="#29666b" stroke="none"><circle cx="201" cy="190" r="2"/><circle cx="201" cy="220" r="2"/><circle cx="201" cy="250" r="2"/><circle cx="201" cy="280" r="2"/></g>
+    <!-- Washing machine and folded towels. -->
+    <rect x="348" y="207" width="222" height="250" rx="13" fill="white" stroke-width="3"/>
+    <path d="M348 261h222" fill="none"/>
+    <rect x="369" y="224" width="59" height="18" rx="3" fill="#eaf3f6"/>
+    <circle cx="543" cy="234" r="10" fill="#f5f1e8"/>
+    <circle cx="514" cy="234" r="3" fill="#29666b" stroke="none"/>
+    <circle cx="459" cy="351" r="68" fill="#eaf3f6" stroke-width="3"/>
+    <circle cx="459" cy="351" r="52" fill="#fff"/>
+    <path d="M408 355q25-22 51 0t51 0v7q-7 41-51 41t-51-48z" fill="#eaf3f6" stroke="none"/>
+    <path d="M408 355q25-22 51 0t51 0m-91 20q20-11 40 0t39 0" fill="none" stroke="#29666b"/>
+    <path d="M512 338v25" fill="none" stroke-width="6"/>
+    <path d="M366 447v11m186-11v11" fill="none" stroke-width="6"/>
+    <path d="M379 178h141q14 0 14 15t-14 15H379q-15 0-15-15t15-15z" fill="#f5f1e8"/>
+    <path d="M387 149h123q14 0 14 14t-14 15H387q-15 0-15-15t15-14z" fill="#29666b"/>
+    <path d="M398 121h103q14 0 14 14t-14 14H398q-15 0-15-14t15-14z" fill="white"/>
+    <path d="M398 135h100m-111 28h123m-131 30h140M412 121v28m7-28v28m-7 29v30m7-30v30" fill="none"/>
+    <!-- Basket and a towel hanging over its side. -->
+    <path d="M101 353h199l-22 104H123z" fill="#f5f1e8" stroke-width="3"/>
+    <path d="M111 373h179m-174 23h169m-165 23h160m-155 22h150M139 354l12 103m22-103 5 103m25-103v103m28-103-6 103m35-103-13 103" fill="none" stroke="#8c9d9d" stroke-width="2"/>
+    <rect x="94" y="343" width="211" height="13" rx="6" fill="#fff"/>
+    <path d="M111 343q-16-29 11-44 9-21 29-12 20-27 42-3 25-14 33 9 32-3 38 19l18 31" fill="#eaf3f6"/>
+    <path d="M132 343q-14-15 1-26m40 26q17-18 0-34m37 34q-9-12 5-24" fill="none"/>
+    <path d="M238 328h39v97l-11-3-9 3-9-3-10 3z" fill="white"/>
+    <path d="M247 336v76m8-76v76m8-76v76" fill="none" stroke="#a8bec1"/>
+    <!-- Small plant and everyday bubbles. -->
+    <path d="M603 400v-88m0 57q-35-10-35-39 33 2 35 39zm0-25q-1-32 26-45 14 30-26 45zm0-28q-20-7-19-30 25 4 19 30z" fill="#29666b"/>
+    <path d="M580 399h46l-7 58h-32z" fill="#f5f1e8"/>
+    <path d="M577 397h52v9h-52z" fill="white"/>
+    <g fill="white" stroke="#a8bec1" stroke-width="2"><circle cx="300" cy="80" r="9"/><circle cx="596" cy="150" r="14"/><circle cx="325" cy="272" r="7"/></g>
+    <path d="M307 200v17m-8-8h17M589 86v17m-8-8h17" fill="none" stroke="#29666b"/>
+
+  </g>
+</svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150" role="img" aria-labelledby="title">
+  <title id="title">Boxers and knickers</title>
+  <!-- Original simple drawing made for the Laundry Guru website. -->
+  <g stroke="#193e50" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M25 49h77l-4 57H70l-5-22-5 22H30z" fill="#eaf3f6"/>
+    <path d="M25 61h77M65 61v23m-6-23v15h6M30 98h30m10 0h28" fill="none"/>
+    <path d="M112 58h63q0 29-23 53h-17q-23-24-23-53z" fill="#f5f1e8"/>
+    <path d="M113 66h61m-61 0q28 6 30 37m31-37q-28 6-30 37" fill="none"/>
+    <path d="M139 74l5-4 5 4" fill="none" stroke="#29666b"/>
+  </g>
+</svg>

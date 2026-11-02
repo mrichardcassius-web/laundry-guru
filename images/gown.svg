@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150" role="img" aria-labelledby="title">
+  <title id="title">A long wedding gown</title>
+  <!-- Original simple drawing made for the Laundry Guru website. -->
+  <g stroke="#193e50" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M81 24l6-10 13 8 13-8 6 10-7 29q-7 15 1 29l33 48q-46 13-92 0l33-48q8-14 1-29z" fill="#f5f1e8"/>
+    <path d="M81 24q8 0 19 11 11-11 19-11M88 53q12 5 24 0m-23 8h22M87 82l-13 47m22-46-4 50m12-50 4 50m5-51 13 47" fill="none"/>
+    <path d="M82 115l3 4-3 4-3-4zm36-6 3 4-3 4-3-4zM98 98l2-3 2 3-2 3z" fill="#eaf3f6"/>
+    <path d="M115 58l13 8m-13-8 13-6" fill="none" stroke="#29666b"/>
+  </g>
+</svg>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150" role="img" aria-labelledby="title">
+  <title id="title">An everyday T-shirt</title>
+  <!-- Original simple drawing made for the Laundry Guru website. -->
+  <g stroke="#193e50" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M78 29L44 49l17 32 18-10v60h42V71l18 10 17-32-34-20q-22 16-44 0z" fill="#f5f1e8"/>
+    <path d="M87 32q13 18 26 0M79 71V47m42 24V47M49 59l16 29m86-29-16 29M79 122h42" fill="none"/>
+    <path d="M92 75h16v16H92z" fill="#eaf3f6"/>
+    <path d="M96 83h8" fill="none" stroke="#29666b"/>
+  </g>
+</svg>

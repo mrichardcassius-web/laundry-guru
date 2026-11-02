@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150" role="img" aria-labelledby="title">
+  <title id="title">Three neatly folded towels</title>
+  <!-- Original simple drawing made for the Laundry Guru website. -->
+  <g stroke="#193e50" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M49 86h109q12 0 12 17t-12 17H49q-15 0-15-17t15-17z" fill="#eaf3f6"/>
+    <path d="M51 57h98q13 0 13 15t-13 15H51q-14 0-14-15t14-15z" fill="#f5f1e8"/>
+    <path d="M61 31h81q12 0 12 13t-12 13H61q-14 0-14-13t14-13z" fill="#eaf3f6"/>
+    <path d="M49 104h106m-104-31h96M61 44h77M70 87v33m7-33v33M70 57v30m7-30v30M70 31v26m7-26v26" fill="none"/>
+    <path d="M88 99h31m-31 7h17" fill="none" stroke="#29666b"/>
+  </g>
+</svg>

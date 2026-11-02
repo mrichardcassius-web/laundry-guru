@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <meta content="Laundry Guru — washing, dry cleaning and ironing in Kampala. Choose your clothes, view prices and explore pickup and mobile money payment options." name="description"/>
+  <title>
+   Products | Laundry Guru
+  </title>
+  <link href="images/logo.png" rel="icon" type="image/png"/>
+  <link as="font" crossorigin="" href="fonts/plus-jakarta-sans.woff2" rel="preload" type="font/woff2"/>
+  <link href="style.css" rel="stylesheet"/>
+  <script defer="" src="script.js">
+  </script>
+ </head>
+ <body data-page="products">
+  <!-- The same header and menu appear on all five pages. -->
+  <a class="skip" href="#main">
+   Skip to content
+  </a>
+  <div class="top-bar">
+   <div class="wrap">
+    <span>
+     <i aria-hidden="true" class="location-dot">
+     </i>
+     Kampala, Uganda
+    </span>
+    <a href="pay.html#how-to-pay">
+     Payments &amp; orders
+     <span aria-hidden="true">
+      ↗
+     </span>
+    </a>
+   </div>
+  </div>
+  <!-- Shared Laundry Guru header. The mobile menu uses script.js section 14. -->
+  <header class="header wrap">
+   <a class="logo" href="index.html">
+    <img alt="Laundry Guru logo" height="69" src="images/logo.png" width="78"/>
+    <span>
+     Laundry Guru
+     <small>
+      Weigh. Wash. Worry less.
+     </small>
+    </span>
+   </a>
+   <button aria-controls="main-menu" aria-expanded="false" class="menu-toggle" type="button">
+    Menu
+    <span aria-hidden="true" class="menu-lines">
+    </span>
+   </button>
+   <nav aria-label="Main menu" id="main-menu">
+    <a href="index.html">
+     Home
+    </a>
+    <a aria-current="page" href="products.html">
+     Services
+    </a>
+    <a href="about.html">
+     About
+    </a>
+    <a href="pay.html">
+     How to pay
+    </a>
+    <a href="policies.html">
+     Policies
+    </a>
+   </nav>
+   <a class="button header-book" href="products.html">
+    Book a wash
+    <span aria-hidden="true">
+     ↗
+    </span>
+   </a>
+  </header>
+  <noscript>
+   <p class="notice wrap">
+    Turn on JavaScript to select clothes, calculate prices and try the order flow. You can still browse services and payment instructions.
+   </p>
+  </noscript>
+  <p class="notice wrap" hidden="" id="storage-message" role="alert">
+  </p>
+  <main id="main">
+   <section class="page-intro wrap">
+    <p class="eyebrow">
+     YOUR LAUNDRY, YOUR WAY
+    </p>
+    <h1>
+     Choose your clothes
+    </h1>
+    <p id="step-description">
+     Step 1 of 4 · Choose a service and the types of clothes you have.
+    </p>
+    <ol aria-label="Order progress" class="steps">
+     <li data-step="clothes">
+      <span>
+       1
+      </span>
+      Clothes
+     </li>
+     <li data-step="quantity">
+      <span>
+       2
+      </span>
+      Quantity
+     </li>
+     <li data-step="delivery">
+      <span>
+       3
+      </span>
+      Pickup &amp; time
+     </li>
+     <li data-step="payment">
+      <span>
+       4
+      </span>
+      Payment
+     </li>
+    </ol>
+   </section>
+   <div class="wrap order-layout">
+    <div>
+     <section class="step-section" id="clothes-section">
+      <div aria-label="Choose a service" class="service-tabs">
+       <a data-service="washing" href="products.html?service=washing&amp;step=clothes">
+        Washing
+       </a>
+       <a data-service="dry-cleaning" href="products.html?service=dry-cleaning&amp;step=clothes">
+        Dry cleaning
+       </a>
+       <a data-service="ironing" href="products.html?service=ironing&amp;step=clothes">
+        Ironing
+       </a>
+      </div>
+      <div class="section-heading compact">
+       <div>
+        <h2 id="service-title">
+         Washing
+        </h2>
+        <p id="service-note">
+         Select all the kinds of clothes in your laundry. Add quantities in the next step.
+        </p>
+       </div>
+       <span class="price-label">
+        PRICES IN UGX
+       </span>
+      </div>
+      <form id="clothes-form">
+       <div class="product-grid">
+        <label class="product-card" data-dry-cleaning="6000" data-ironing="2000" data-item="shirt" data-washing="3000">
+         <input name="clothes" type="checkbox" value="shirt"/>
+         <span class="product-photo">
+          <img alt="Men’s shirts" height="500" loading="lazy" src="images/mens-shirts.jpg" width="500"/>
+         </span>
+         <span class="product-name">
+          Men’s shirts
+         </span>
+         <span class="product-description">
+          Everyday and work shirts.
+         </span>
+         <strong class="product-price">
+          UGX 3,000 / item
+         </strong>
+         <span class="product-select">
+          Select item
+         </span>
+        </label>
+        <label class="product-card" data-dry-cleaning="7000" data-ironing="2500" data-item="trousers" data-washing="4000">
+         <input name="clothes" type="checkbox" value="trousers"/>
+         <span class="product-photo">
+          <img alt="Men’s trousers" height="500" loading="lazy" src="images/mens-trousers.jpg" width="500"/>
+         </span>
+         <span class="product-name">
+          Men’s trousers
+         </span>
+         <span class="product-description">
+          Formal and everyday trousers.
+         </span>
+         <strong class="product-price">
+          UGX 4,000 / item
+         </strong>
+         <span class="product-select">
+          Select item
+         </span>
+        </label>
+        <label class="product-card" data-dry-cleaning="4500" data-ironing="1500" data-item="tshirt" data-washing="2500">
+         <input name="clothes" type="checkbox" value="tshirt"/>
+         <span class="product-photo">
+          <img alt="Men’s T-shirts" height="500" loading="lazy" src="images/mens-tshirts.jpg" width="500"/>
+         </span>
+         <span class="product-name">
+          Men’s T-shirts
+         </span>
+         <span class="product-description">
+          Cotton tops and casual T-shirts.
+         </span>
+         <strong class="product-price">
+          UGX 2,500 / item
+         </strong>
+         <span class="product-select">
+          Select item
+         </span>
+        </label>
+        <label class="product-card" data-dry-cleaning="0" data-ironing="0" data-item="boxers" data-washing="1500">
+         <input name="clothes" type="checkbox" value="boxers"/>
+         <span class="product-photo">
+          <img alt="Boxers" height="500" loading="lazy" src="images/boxers.jpg" width="500"/>
+         </span>
+         <span class="product-name">
+          Boxers
+         </span>
+         <span class="product-description">
+          Gentle washing for underwear.
+         </span>
+         <strong class="product-price">
+          UGX 1,500 / item
+         </strong>
+         <span class="product-select">
+          Select item
+         </span>
+        </label>
+        <label class="product-card" data-dry-cleaning="12000" data-ironing="5000" data-item="jacket" data-washing="8000">
+         <input name="clothes" type="checkbox" value="jacket"/>
+         <span class="product-photo">
+          <img alt="Jackets" height="500" loading="lazy" src="images/jackets.jpg" width="500"/>
+         </span>
+         <span class="product-name">
+          Jackets
+         </span>
+         <span class="product-description">
+          Light jackets and outerwear.
+         </span>
+         <strong class="product-price">
+          UGX 8,000 / item
+         </strong>
+         <span class="product-select">
+          Select item
+         </span>
+        </label>
+        <label class="product-card" data-dry-cleaning="20000" data-ironing="8000" data-item="suit" data-washing="15000">
+         <input name="clothes" type="checkbox" value="suit"/>
+         <span class="product-photo">
+          <img alt="Suits" height="500" loading="lazy" src="images/suits.jpg" width="500"/>
+         </span>
+         <span class="product-name">
+          Suits
+         </span>
+         <span class="product-description">
+          One two-piece suit counts as one item.
+         </span>
+         <strong class="product-price">
+          UGX 15,000 / item
+         </strong>
+         <span class="product-select">
+          Select item
+         </span>
+        </label>
+        <label class="product-card" data-dry-cleaning="6000" data-ironing="2000" data-item="women-shirt" data-washing="3000">
+         <input name="clothes" type="checkbox" value="women-shirt"/>
+         <span class="product-photo">
+          <img alt="Women’s shirts" height="500" loading="lazy" src="images/womens-shirts.jpg" width="500"/>
+         </span>
+         <span class="product-name">
+          Women’s shirts
+         </span>
+         <span class="product-description">
+          Blouses and everyday shirts.
+         </span>
+         <strong class="product-price">
+          UGX 3,000 / item
+         </strong>
+         <span class="product-select">
+          Select item
+         </span>
+        </label>
+        <label class="product-card" data-dry-cleaning="6000" data-ironing="2000" data-item="skirt" data-washing="3000">
+         <input name="clothes" type="checkbox" value="skirt"/>
+         <span class="product-photo">
+          <img alt="Pleated skirts in cream, burgundy and black" height="736" loading="lazy" src="images/skirts.jpg" width="736"/>
+         </span>
+         <span class="product-name">
+          Skirts
+         </span>
+         <span class="product-description">
+          Short and long everyday skirts.
+         </span>
+         <strong class="product-price">
+          UGX 3,000 / item
+         </strong>
+         <span class="product-select">
+          Select item
+         </span>
+        </label>
+        <label class="product-card" data-dry-cleaning="7000" data-ironing="2500" data-item="pants" data-washing="4000">
+         <input name="clothes" type="checkbox" value="pants"/>
+         <span class="product-photo">
+          <img alt="Women’s pants" height="500" loading="lazy" src="images/womens-pants.jpg" width="500"/>
+         </span>
+         <span class="product-name">
+          Women’s pants
+         </span>
+         <span class="product-description">
+          Work trousers and casual pants.
+         </span>
+         <strong class="product-price">
+          UGX 4,000 / item
+         </strong>
+         <span class="product-select">
+          Select item
+         </span>
+        </label>
+        <label class="product-card" data-dry-cleaning="4500" data-ironing="1500" data-item="women-tshirt" data-washing="2500">
+         <input name="clothes" type="checkbox" value="women-tshirt"/>
+         <span class="product-photo">
+          <img alt="Women’s T-shirts" height="500" loading="lazy" src="images/womens-tshirts.jpg" width="500"/>
+         </span>
+         <span class="product-name">
+          Women’s T-shirts
+         </span>
+         <span class="product-description">
+          Cotton tops and casual T-shirts.
+         </span>
+         <strong class="product-price">
+          UGX 2,500 / item
+         </strong>
+         <span class="product-select">
+          Select item
+         </span>
+        </label>
+        <label class="product-card" data-dry-cleaning="0" data-ironing="0" data-item="bra" data-washing="2000">
+         <input name="clothes" type="checkbox" value="bra"/>
+         <span class="product-photo">
+          <img alt="Bras" height="500" loading="lazy" src="images/bras.jpg" width="500"/>
+         </span>
+         <span class="product-name">
+          Bras
+         </span>
+         <span class="product-description">
+          Gentle wash; no dry cleaning or ironing.
+         </span>
+         <strong class="product-price">
+          UGX 2,000 / item
+         </strong>
+         <span class="product-select">
+          Select item
+         </span>
+        </label>
+        <label class="product-card" data-dry-cleaning="0" data-ironing="0" data-item="knickers" data-washing="1500">
+         <input name="clothes" type="checkbox" value="knickers"/>
+         <span class="product-photo">
+          <img alt="Knickers" height="500" loading="lazy" src="images/knickers.jpg" width="500"/>
+         </span>
+         <span class="product-name">
+          Knickers
+         </span>
+         <span class="product-description">
+          Gentle wash for small underwear.
+         </span>
+         <strong class="product-price">
+          UGX 1,500 / item
+         </strong>
+         <span class="product-select">
+          Select item
+         </span>
+        </label>
+        <label class="product-card" data-dry-cleaning="0" data-ironing="0" data-item="towel" data-washing="5000">
+         <input name="clothes" type="checkbox" value="towel"/>
+         <span class="product-photo">
+          <img alt="Folded and rolled towels in assorted colours" height="736" loading="lazy" src="images/towels.jpg" width="736"/>
+         </span>
+         <span class="product-name">
+          Towels
+         </span>
+         <span class="product-description">
+          One bath towel counts as one item.
+         </span>
+         <strong class="product-price">
+          UGX 5,000 / item
+         </strong>
+         <span class="product-select">
+          Select item
+         </span>
+        </label>
+        <label class="product-card" data-dry-cleaning="0" data-ironing="4000" data-item="bedding" data-washing="10000">
+         <input name="clothes" type="checkbox" value="bedding"/>
+         <span class="product-photo">
+          <img alt="Bedding" height="500" loading="lazy" src="images/bedding.jpg" width="500"/>
+         </span>
+         <span class="product-name">
+          Bedding
+         </span>
+         <span class="product-description">
+          One sheet or duvet cover, not a duvet.
+         </span>
+         <strong class="product-price">
+          UGX 10,000 / item
+         </strong>
+         <span class="product-select">
+          Select item
+         </span>
+        </label>
+        <label class="product-card" data-dry-cleaning="80000" data-ironing="20000" data-item="gown" data-washing="50000">
+         <input name="clothes" type="checkbox" value="gown"/>
+         <span class="product-photo">
+          <img alt="Wedding gowns" height="500" loading="lazy" src="images/wedding-gowns.jpg" width="500"/>
+         </span>
+         <span class="product-name">
+          Wedding gowns
+         </span>
+         <span class="product-description">
+          Special care; inspect fabric before accepting.
+         </span>
+         <strong class="product-price">
+          UGX 50,000 / item
+         </strong>
+         <span class="product-select">
+          Select item
+         </span>
+        </label>
+       </div>
+       <p class="small">
+        Read the care label first. A shop would inspect special items before accepting them. An unavailable item is marked for the selected service.
+       </p>
+       <p class="error" id="clothes-error" role="alert">
+       </p>
+       <div class="page-actions">
+        <a class="text-link" href="index.html#services">
+         ← Back to services
+        </a>
+        <button type="submit">
+         Next: quantity →
+        </button>
+       </div>
+      </form>
+     </section>
+     <!-- This second Products view opens at a new URL when Next is clicked. -->
+     <section class="step-section" hidden="" id="quantity-section">
+      <h2>
+       How much laundry do you have?
+      </h2>
+      <p id="quantity-note">
+       Choose how you would like us to price your washing.
+      </p>
+      <form id="quantity-form">
+       <fieldset class="choice-grid" id="quantity-choices">
+        <legend>
+         Choose a pricing method
+        </legend>
+        <label class="choice">
+         <input checked="" name="method" type="radio" value="item"/>
+         <strong>
+          Per cloth
+         </strong>
+         <span>
+          Enter the number of each item. Each type has its own price.
+         </span>
+        </label>
+        <label class="choice" id="kg-choice">
+         <input name="method" type="radio" value="kg"/>
+         <strong>
+          Per kilogram
+         </strong>
+         <span>
+          UGX 8,000 / kg. Everyday clothes only. Final weight checked at the shop.
+         </span>
+        </label>
+        <label class="choice" id="basket-choice">
+         <input name="method" type="radio" value="basket"/>
+         <strong>
+          Per laundry basket
+         </strong>
+         <span>
+          UGX 35,000 / basket. One basket holds up to 6 kg of everyday clothes.
+         </span>
+        </label>
+       </fieldset>
+       <div class="panel quantity-list" id="item-quantities">
+       </div>
+       <div class="panel" hidden="" id="bulk-quantity">
+        <label for="bulk-count" id="bulk-label">
+         Number of kilograms
+        </label>
+        <input id="bulk-count" max="100" min="0.5" step="0.5" type="number" value="1"/>
+        <p class="small" id="bulk-help">
+        </p>
+       </div>
+       <p class="error" id="quantity-error" role="alert">
+       </p>
+       <div class="page-actions">
+        <a class="text-link" href="products.html?step=clothes" id="back-to-clothes">
+         ← Back: clothes
+        </a>
+        <button type="submit">
+         Next: pickup &amp; time →
+        </button>
+       </div>
+      </form>
+     </section>
+    </div>
+    <aside class="order-summary panel">
+     <p class="eyebrow">
+      YOUR LAUNDRY BASKET
+     </p>
+     <h2>
+      Order summary
+     </h2>
+     <div data-summary="">
+      <p>
+       Choose clothes to begin your estimate.
+      </p>
+     </div>
+     <p class="small">
+      Estimates in Uganda shillings. Review the full cost after choosing pickup and time.
+     </p>
+     <a class="text-link" href="policies.html#delivery">
+      Delivery &amp; care details →
+     </a>
+    </aside>
+   </div>
+   <section class="section wrap">
+    <div class="help-strip">
+     <h2>
+      A note on special items
+     </h2>
+     <p>
+      Suits, jackets, bedding and wedding gowns are priced per item. They are not included in our kilogram or basket offers. Dry cleaning and ironing are also priced per item. Duvets need a separate quote and are not in this catalogue.
+     </p>
+    </div>
+   </section>
+  </main>
+  Contact links supplied by Laundry Guru. checkout remains clearly labelled.
+  <footer class="footer">
+   <div class="wrap footer-grid">
+    <div>
+     <a class="footer-brand" href="index.html">
+      <img alt="Laundry Guru" height="59" src="images/logo.png" width="66"/>
+      <span>
+       Laundry Guru
+       <small>
+        Fresh laundry. Less worry.
+       </small>
+      </span>
+     </a>
+     <p>
+      Everyday clothes. Special outfits.
+      <br/>
+      A fresh start, right here in Kampala.
+     </p>
+     <div class="footer-social">
+      <a href="https://www.tiktok.com/@LaundryGuruUG" rel="noopener noreferrer" target="_blank">
+       TikTok
+       <span aria-hidden="true">
+        ↗
+       </span>
+      </a>
+      <a href="https://www.facebook.com/LaundryGuru" rel="noopener noreferrer" target="_blank">
+       Facebook
+       <span aria-hidden="true">
+        ↗
+       </span>
+      </a>
+      <a href="https://www.instagram.com/laundryguru.ug?vrfl=MWYwbHNkeHJhNWk4YQ%3D%3D" rel="noopener noreferrer" target="_blank">
+       Instagram
+       <span aria-hidden="true">
+        ↗
+       </span>
+      </a>
+      <a href="https://x.com/guru_ug98567" rel="noopener noreferrer" target="_blank">
+       X
+       <span aria-hidden="true">
+        ↗
+       </span>
+      </a>
+     </div>
+    </div>
+    <div>
+     <h2>
+      Your laundry
+     </h2>
+     <a href="products.html?service=washing&amp;step=clothes">
+      Washing
+     </a>
+     <a href="products.html?service=dry-cleaning&amp;step=clothes">
+      Dry cleaning
+     </a>
+     <a href="products.html?service=ironing&amp;step=clothes">
+      Ironing
+     </a>
+     <a href="pay.html#how-to-pay">
+      How to pay
+     </a>
+    </div>
+    <div>
+     <h2>
+      Here to help
+     </h2>
+     <a href="index.html#track">
+      Track your laundry
+     </a>
+     <a href="index.html#complaint">
+      Tell us about a problem
+     </a>
+     <a href="policies.html#delivery">
+      Pickup &amp; delivery
+     </a>
+     <a href="about.html#contact">
+      Get in touch
+     </a>
+    </div>
+    <div>
+     <h2>
+      Around Kampala
+     </h2>
+     <p>
+      Nakawa · Ntinda · Bugolobi
+     </p>
+     <p>
+      Choose your area when ordering.
+      <br/>
+      Collection details need confirmation.
+     </p>
+     <a class="footer-cta" href="products.html">
+      Start your order →
+     </a>
+    </div>
+   </div>
+   <div class="wrap footer-bottom">
+    <p>
+     © 2026 Laundry Guru
+    </p>
+    <a href="policies.html">
+     Privacy &amp; terms
+    </a>
+    <span>
+     Laundry care made simple.
+    </span>
+   </div>
+  </footer>
+ </body>
+</html>
